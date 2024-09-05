@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Bocas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="left-panel">
+        <!-- Imagem do autômato como um mapa de imagem -->
+        <img src="AutomatoFogao.PNG" usemap="#automato-map" alt="Autômato de Fogão" class = "automato_img">
+    </div>
+
+    <div class="right-panel">
+        <!-- Bocas -->
+        <div class="bocas">
+            <div class="boca" id="boca1">Boca 1</div>
+            <div class="boca" id="boca2">Boca 2</div>
+            <div class="boca" id="boca3">Boca 3</div>
+            <div class="boca" id="boca4">Boca 4</div>
+        </div>
+        <!-- Botões de controle -->
+        <div class="buttons">
+            <button onclick="ligar('boca1')">Ligar Boca 1</button>
+            <button onclick="ligar('boca2')">Ligar Boca 2</button>
+            <button onclick="ligar('boca3')">Ligar Boca 3</button>
+            <button onclick="ligar('boca4')">Ligar Boca 4</button>
+            <button onclick="desligar('boca1')">Desligar Boca 1</button>
+            <button onclick="desligar('boca2')">Desligar Boca 2</button>
+            <button onclick="desligar('boca3')">Desligar Boca 3</button>
+            <button onclick="desligar('boca4')">Desligar Boca 4</button>
+        </div>
+        <!-- Frase de Estado -->
+        <div id="estado" class="estado">
+            q0 - Todas as bocas estão desligadas
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
