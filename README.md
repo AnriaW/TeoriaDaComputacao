@@ -20,12 +20,11 @@ A interface é composta pelos seguintes elementos:
 
 ## Como Usar
 
-1. **Baixe o Arquivo**:
-    ```bash
-    git clone https://github.com/seu-usuario/seu-repositorio.git
-    ```
+1. **Baixe os arquivos**:
 
-2. **Abra o arquivo `index.html` no navegador**:
+    É encontrado no botão verde "code" ao subir a tela e clique em "Download ZIP"
+
+2. **Abra o arquivo `index.html` no pasta que foi baixada**:
     Basta abrir o arquivo `index.html` em qualquer navegador web.
 
 3. **Interaja com a interface**:
@@ -44,8 +43,3 @@ A interface é composta pelos seguintes elementos:
 - `styles.css`: Arquivo de estilos que define o layout e aparência dos elementos.
 - `script.js`: Arquivo de script que contém a lógica para manipulação dos estados das bocas e atualização da interface.
 - `images/`: Pasta que contém a imagem utilizada no projeto.
-
-## Autor
-
-- [Seu Nome](https://github.com/seu-usuario)
-
